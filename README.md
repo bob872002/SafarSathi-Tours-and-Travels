@@ -38,7 +38,7 @@ SafarSathi/
 └── images/
 ```
 
-### Installation Instructions
+### 6. Installation Instructions
 
 1. Required Python Packages
 
