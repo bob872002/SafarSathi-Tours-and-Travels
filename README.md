@@ -38,24 +38,25 @@ SafarSathi/
 └── images/
 ```
 
-## 6. Installation Instructions
+### Installation Instructions
 
-Clone the repository:
+1. Required Python Packages
 
-```bash
-git clone https://github.com/bob872002/SafarSathi-Tours-and-Travels.git
-```
+The project requires the following Python packages:
 
-Open the project folder:
+- streamlit
+- mysql-connector-python
+- python-dotenv
 
-```bash
-cd SafarSathi-Tours-and-Travels
-```
+2. Installation Commands
 
-Install the required packages:
+Run these commands in Command Prompt from the project folder:
 
 ```bash
-pip install -r requirements.txt
+python -m venv venv
+venv\Scripts\activate
+pip install streamlit mysql-connector-python python-dotenv
+streamlit run app.py
 ```
 
 ## 7. MySQL Database Setup
